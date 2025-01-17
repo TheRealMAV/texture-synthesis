@@ -1,0 +1,50 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+
+# Ignore environment variables
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore test results
+nosetests.xml
+test-results/
+
+# Ignore IDE/editor specific files (optional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore other files you don't want to track (optional)
+.DS_Store  # macOS specific
+Thumbs.db  # Windows specific
+
